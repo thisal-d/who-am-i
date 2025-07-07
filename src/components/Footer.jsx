@@ -28,33 +28,34 @@ let socialInformations = [
 const Footer = () => (
     <footer>
         <div>
-            <h2>
-                Thisal Dilmith
-            </h2>
+            <p className="title">
+                Who Am I
+            </p>
            
             <div className="main-container">
+                <div><p className="social-title"> Wanna Know Who Am I ?</p></div>
                 <div>
                     {
                         socialInformations.map(
-                        (socialInformation, index) => (
-                                <div key={index} className="social-link-containter">
+                            (socialInformation, index) => (
+                                <div key={index} className="social-link-container">
                                     <a href={socialInformation.url} target="_blank" rel="noopener noreferrer" className="social-link">
                                         <img src={socialInformation.icon} alt={socialInformation.name} className="social-icon" />
                                         <p className="social-name">{socialInformation.name}</p>
                                     </a>
                                 </div>
-                        ) 
+                            ) 
                         )
                     }
                 </div>
 
                 <div>
-                    <img src="/images/profile.jpg" alt="Profile-Photo" className="footer-profile-image" />
+                    <img src="/images/profile.jpg" alt="Profile-Photo" className="profile-image" />
                 </div>
             </div>
         </div>
-         <p className="footer-copyright-text">
-                © {new Date().getFullYear()} Thisa Dilmith. All rights reserved.
+         <p className="copyright-text">
+                &copy; {new Date().getFullYear()} Thisal Dilmith • Who Am I. All rights reserved.
         </p>
     </footer>
 );
