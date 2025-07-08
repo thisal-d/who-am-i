@@ -1,20 +1,24 @@
-
-
-
 .prject-section {
     background: linear-gradient(90deg, #1b002c 0%, #000000 100%);
     color: #fff;
-    padding-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
-
 
 .project-s-title{
     font-size: 2rem;
-    margin-bottom: 1rem;
     font-family: 'SairaStencilOne', monospace;
 }
 
 .project-s-description{
+    margin: 2rem;
     font-family: 'VT323', monospace;
     font-size: 1.4rem;
+}
+
+.projetcs-container{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }

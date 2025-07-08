@@ -1,9 +1,10 @@
 .project-card {
-    width: 320px;
+    width: 400px;
     padding: 16px;
-    background-color: #251f1f;
+    background: linear-gradient(90deg, #340253 0%, #020020 100%);
+    border: 1px solid #000000;
     border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px rgba(162, 0, 255, 0.5);
     margin: 24px;
     font-family: 'SairaStencilOne', monospace;
     display: flex;
