@@ -10,7 +10,7 @@ function ProjectCard({ project }) {
       <div>
         <div className="project-images-container">
           {project.images.map((image, index) => (
-            <div key={index} className="project-image-wrapper" style={{ top: `${index * 12}px`, left: `-${index * 12}px`}}>
+            <div key={index} className="project-image-wrapper" style={{ top: `${index * 20}px`, left: `-${index * 20}px`}}>
               <img src={image} alt={`project-${index}`} className="project-image" />
             </div>
           ))}

@@ -5,22 +5,22 @@ const projects = [
     {
         title: "tkchart",
         description: "Line-Chart Widget for tkinter, Python library for creating live updating line charts..",
-        images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png", "/images/tkchart/5.png"],
+        images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png"],
+    },
+    {
+        title: "PyTube Downloder",
+        description: "Quickly download YouTube videos and playlists with one click. Choose from 144p to 8K quality and download multiple videos simultaneously",
+        images: ["/images/pytube-downloader/1.png", "/images/pytube-downloader/2.png", "/images/pytube-downloader/3.png", "/images/pytube-downloader/4.png"]
     },
     {
         title: "ctkchart",
         description: "Line-Chart Widget for customtkinter, Python library for creating live updating line charts..",
-        images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png", "/images/tkchart/5.png"],
+        images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png"],
     },
     {
         title: "ctkchart",
         description: "Line-Chart Widget for customtkinter, Python library for creating live updating line charts..",
-        images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png", "/images/tkchart/5.png"],
-    },
-    {
-        title: "ctkchart",
-        description: "Line-Chart Widget for customtkinter, Python library for creating live updating line charts..",
-        images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png", "/images/tkchart/5.png"],
+        images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png"],
     }
 ]
 

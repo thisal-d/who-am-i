@@ -2,7 +2,7 @@
     width: 400px;
     padding: 16px;
     background: linear-gradient(90deg, #340253 0%, #020020 100%);
-    border: 1px solid #000000;
+    border: 1px solid rgb(153, 0, 255);
     border-radius: 12px;
     box-shadow: 0px 0px 20px rgba(162, 0, 255, 0.5);
     margin: 24px;
@@ -27,20 +27,25 @@
 }
 
 .project-images-container {
-    position: relative;         /* Contain the absolutely positioned images */
-    width: 100px;               /* Adjust as needed */
-    height: 100px;              /* Adjust as needed */
+    position: relative;         
+    width: 210px;
+    height: 215px;            
 }
 
 .project-image-wrapper {
-    position: absolute;         /* Position images absolutely for stacking */
-    transition: transform 0.2s;
+    position: absolute;       
 }
 
 .project-image {
-    width: 100%;                /* Fixed size for effect */
-    height: 60px;
+    width: 270px;               
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.16);
-    border: 2px solid #fff;
+    transition: transform 0.2s;
+}
+
+.project-image:hover {
+    transform: scale(1.07);
+    z-index: 0;
+    box-shadow: 5px -5px 5px 5px rgba(176, 91, 255, 0.5);
+
 }
