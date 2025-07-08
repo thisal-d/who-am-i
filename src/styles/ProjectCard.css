@@ -1,5 +1,6 @@
 .project-card {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding: 16px;
     background: linear-gradient(90deg, #340253 0%, #020020 100%);
     border: 1px solid rgb(153, 0, 255);
@@ -47,5 +48,32 @@
     transform: scale(1.07);
     z-index: 0;
     box-shadow: 5px -5px 5px 5px rgba(176, 91, 255, 0.5);
+}
 
+
+@media screen (max-width: 768px) {
+    .project-card {
+        width: 100%;
+        max-width: 100%;
+        padding: 16px;
+        margin: 0;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+    }
+
+    .project-description {
+        font-size: 1rem;
+    }
+
+    .project-images-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-image {
+        width: 100%;
+    }
+    
 }
