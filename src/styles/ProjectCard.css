@@ -1,12 +1,11 @@
 .project-card {
-    width: 100%;
-    max-width: 400px;
-    padding: 16px;
+    width: 360px;
+    padding: 1rem;
     background: linear-gradient(90deg, #340253 0%, #020020 100%);
     border: 1px solid rgb(153, 0, 255);
     border-radius: 12px;
     box-shadow: 0px 0px 20px rgba(162, 0, 255, 0.5);
-    margin: 24px;
+    margin: 2rem;
     font-family: 'SairaStencilOne', monospace;
     display: flex;
     flex-direction: column;
@@ -29,8 +28,8 @@
 
 .project-images-container {
     position: relative;         
-    width: 210px;
-    height: 215px;            
+    width: 184px;
+    height: 190px;            
 }
 
 .project-image-wrapper {
@@ -38,7 +37,7 @@
 }
 
 .project-image {
-    width: 270px;               
+    width: 240px;               
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.16);
     transition: transform 0.2s;
@@ -51,29 +50,3 @@
 }
 
 
-@media screen (max-width: 768px) {
-    .project-card {
-        width: 100%;
-        max-width: 100%;
-        padding: 16px;
-        margin: 0;
-    }
-
-    .project-title {
-        font-size: 1.2rem;
-    }
-
-    .project-description {
-        font-size: 1rem;
-    }
-
-    .project-images-container {
-        width: 100%;
-        height: auto;
-    }
-
-    .project-image {
-        width: 100%;
-    }
-    
-}
