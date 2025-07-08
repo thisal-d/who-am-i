@@ -1,8 +1,10 @@
+import ProjectSection from "../components/ProjectSection";
+
 function Home() {
     return (
         <div className="home-page">
-            <h1>Home Page</h1>
-            <p>Welcome to the home page!</p>
+            <h1>Home2 Page</h1>
+            <ProjectSection/>
         </div>
     );
 }

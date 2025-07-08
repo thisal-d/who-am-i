@@ -9,6 +9,11 @@ let socialInformations = [
         icon: "/icons/github.png"
     },
     {
+        name: "Stack Overflow",
+        url: "https://stackoverflow.com/users/17652621/thisal",
+        icon: "/icons/stack-overflow.png"
+    },
+    {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/thisal-dilmith",
         icon: "/icons/linkedin.png"
@@ -28,13 +33,13 @@ let socialInformations = [
 const Footer = () => (
     <footer>
         <div>
-            <p className="title">
+            <p className="footer-title">
                 Who Am I
             </p>
            
-            <div className="main-container">
+            <div className="footer-main-container">
                 <div><p className="social-title"> Wanna Know Who Am I ?</p></div>
-                <div>
+                <div class="social-links-container">
                     {
                         socialInformations.map(
                             (socialInformation, index) => (

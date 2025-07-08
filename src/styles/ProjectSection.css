@@ -1,0 +1,20 @@
+
+
+
+.prject-section {
+    background: linear-gradient(90deg, #1b002c 0%, #000000 100%);
+    color: #fff;
+    padding-top: 2rem;
+}
+
+
+.project-s-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'SairaStencilOne', monospace;
+}
+
+.project-s-description{
+    font-family: 'VT323', monospace;
+    font-size: 1.4rem;
+}

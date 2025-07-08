@@ -1,13 +1,12 @@
 @import url('./fonts.css');
 
-
 footer {
     background: linear-gradient(90deg, #1b002c 0%, #000000 100%);
     color: #fff;
-    padding-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
-.main-container{
+.footer-main-container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,7 +16,7 @@ footer div {
     margin: 0 auto;
 }
 
-.title{
+.footer-title{
     font-size: 2rem;
     margin-bottom: 1rem;
     font-family: 'SairaStencilOne', monospace;
@@ -28,6 +27,11 @@ footer div {
     font-size: 1.5rem;
     color: #fff;
     margin-bottom: 1rem;
+}
+
+.social-links-container{
+    display: flex;
+    flex-direction: column;
 }
 
 .social-link-container{
@@ -76,11 +80,12 @@ footer div {
     font-family: 'VT323', monospace;
     background-color: #000000;
     width: 100%;
+    margin: 2rem -2rem -2rem -2rem;
 }
 
 
-@media (max-width: 768px) {
-    .main-container {
+@media (max-width: 850px) {
+    .footer-main-container {
         flex-direction: column;
         align-items: center;
         text-align: center;

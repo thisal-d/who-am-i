@@ -1,0 +1,45 @@
+.project-card {
+    width: 320px;
+    padding: 16px;
+    background-color: #251f1f;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    margin: 24px;
+    font-family: 'SairaStencilOne', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+
+.project-title {
+    font-family: 'SairaStencilOne', monospace;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    font-family: 'VT323', monospace;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.project-images-container {
+    position: relative;         /* Contain the absolutely positioned images */
+    width: 100px;               /* Adjust as needed */
+    height: 100px;              /* Adjust as needed */
+}
+
+.project-image-wrapper {
+    position: absolute;         /* Position images absolutely for stacking */
+    transition: transform 0.2s;
+}
+
+.project-image {
+    width: 100%;                /* Fixed size for effect */
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.16);
+    border: 2px solid #fff;
+}
