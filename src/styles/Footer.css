@@ -3,14 +3,13 @@
 .footer-head {
     background: linear-gradient(90deg, #1b002c 0%, #000000 100%);
     color: #fff;
-    padding: 2rem 2rem 2rem 2rem;
 }
 
 .footer-main-container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 2rem;
+    justify-content: center;
 }
 
 footer div {
@@ -31,12 +30,10 @@ footer div {
 .social-links-container{
     display: flex;
     flex-direction: column;
-    margin: 2rem;
 }
 
 .social-link-container{
     display: flex; 
-    margin-top: 1rem;
 }
 
 .social-link-container:hover {
@@ -75,24 +72,28 @@ footer div {
 
 .copyright-text{
     font-size: 1.3rem;
-    padding: 1rem;
     font-family: 'VT323', monospace;
     background-color: #000000;
     width: 100%;
     color: #9c4afa;
 }
 
+@media (max-width: 768px){
+    .footer-main-container{
+        padding: 1rem;
+    }
+}
 
 @media (max-width: 850px) {
     .footer-main-container {
         flex-direction: column;
+        padding: 1rem;
         align-items: center;
         text-align: center;
     }
 
-
     .profile-image {
-        margin-top: 2rem;
+
     }
 
     .title {

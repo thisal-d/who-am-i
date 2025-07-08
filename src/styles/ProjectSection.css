@@ -1,7 +1,7 @@
 .prject-section {
     background: linear-gradient(90deg, #1b002c 0%, #000000 100%);
     color: #fff;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
 }
 
 .project-s-title{
@@ -10,15 +10,19 @@
 }
 
 .project-s-description{
-    margin: 2rem;
     font-family: 'VT323', monospace;
     font-size: 1.4rem;
 }
 
 .projetcs-container{
-    margin: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media (max-width: 768px){
+    .prject-section {
+        padding: 1rem;
+    }
 }
