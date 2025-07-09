@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }   
 
 .project-title {
@@ -23,6 +22,7 @@
 .project-description {
     font-family: 'VT323', monospace;
     color: #fff;
+    margin-top: 10px;
     font-size: 1.4rem;
 }
 

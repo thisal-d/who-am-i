@@ -25,7 +25,7 @@ let socialInformations = [
     },
     {
         name: "Instagram",
-        url: "https://www.Instagram.com/thisa.rapa",
+        url: "https://www.instagram.com/thisal.rapa/  ",
         icon: "/icons/instagram.png"
     },
     
