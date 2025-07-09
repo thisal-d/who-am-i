@@ -23,7 +23,11 @@ let socialInformations = [
         url: "https://www.facebook.com/share/1DzcupqZCB/",
         icon: "/icons/facebook.png"
     },
-   
+    {
+        name: "Instagram",
+        url: "https://www.Instagram.com/thisa.rapa",
+        icon: "/icons/instagram.png"
+    },
     
 ];
 

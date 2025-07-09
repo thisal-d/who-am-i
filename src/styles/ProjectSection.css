@@ -7,11 +7,13 @@
 .project-s-title{
     font-size: 2rem;
     font-family: 'SairaStencilOne', monospace;
+    margin-bottom: 30px
 }
 
 .project-s-description{
     font-family: 'VT323', monospace;
     font-size: 1.4rem;
+    margin-bottom: 24px
 }
 
 .projetcs-container{
