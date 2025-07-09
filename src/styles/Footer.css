@@ -96,14 +96,26 @@ footer div {
         align-items: center;
         text-align: center;
     }
+       
+    .footer-title{
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+    }
 
     .social-title {
         font-size: 1.2rem;
         margin-bottom: 24px;
     }
 
- 
+    .social-name{
+        font-size: 1.12rem;
+    }
+
     .social-links-container {
         margin-bottom: 24px;
-    }   
+    }
+
+    .copyright-text{
+        font-size: 1.04rem;
+    }
 }
