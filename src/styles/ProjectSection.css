@@ -37,5 +37,6 @@
 
     .prject-section {
         padding: 3rem;
+        background: linear-gradient(140deg, #550195, #000000, #000000);
     }
 }

@@ -90,6 +90,10 @@ footer div {
 }
 
 @media (max-width: 850px) {
+    .footer-head{
+        background: linear-gradient(210deg, #550195, #000000, #000000);
+    }
+
     .footer-main-container {
         flex-direction: column;
         padding: 1rem;
