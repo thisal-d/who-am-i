@@ -1,8 +1,8 @@
 @import url('./fonts.css');
 
 .footer-head {
+    padding: 2rem;
     background: linear-gradient(90deg, #1b002c 0%, #000000 100%);
-    padding-bottom: 30px;
     color: #fff;
 }
 
