@@ -23,11 +23,8 @@ let socialInformations = [
         url: "https://www.facebook.com/share/1DzcupqZCB/",
         icon: "/icons/facebook.png"
     },
-    {
-        name: "Instagram",
-        url: "https://www.instagram.com/thisal.rapa/",
-        icon: "/icons/instagram.png"
-    }
+   
+    
 ];
 
 const Footer = () => (

@@ -1,5 +1,6 @@
 .project-card {
     width: 360px;
+    height: 400px;
     padding: 1rem;
     background: linear-gradient(90deg, #340253 0%, #020020 100%);
     border: 1px solid rgb(153, 0, 255);
@@ -16,6 +17,7 @@
     font-family: 'SairaStencilOne', monospace;
     font-size: 1.5rem;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .project-description {
@@ -27,7 +29,8 @@
 .project-images-container {
     position: relative;         
     width: 184px;
-    height: 190px;            
+    height: 190px;         
+    margin-bottom: 20px;   
 }
 
 .project-image-wrapper {
