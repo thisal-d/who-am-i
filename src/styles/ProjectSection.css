@@ -14,7 +14,7 @@
 .project-s-description{
     font-family: 'VT323', monospace;
     font-size: 1.4rem;
-    margin-bottom: 24px
+    margin-bottom: 40px
 }
 
 .projetcs-container{
@@ -32,11 +32,10 @@
 
     .project-s-title{
         font-size: 1.6rem;
-      
     }
 
     .prject-section {
-        padding: 3rem;
+        padding: 2rem;
         background: linear-gradient(140deg, #550195, #000000, #000000);
     }
 }

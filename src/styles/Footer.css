@@ -96,14 +96,14 @@ footer div {
 
     .footer-main-container {
         flex-direction: column;
-        padding: 1rem;
+        padding: 2rem;
         align-items: center;
         text-align: center;
     }
        
     .footer-title{
         font-size: 1.6rem;
-        margin-bottom: 12px;
+        margin-bottom: 1px;
     }
 
     .social-title {

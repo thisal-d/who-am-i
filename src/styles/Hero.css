@@ -1,0 +1,61 @@
+.hero-section {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-90deg, #550195, #000000, #000000);
+  color: #fff;
+  gap: 3rem;
+}
+
+.hero-title{
+  font-family: 'SairaStencilOne', monospace;
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+
+.hero-tagline {
+  font-family: 'SairaStencilOne', monospace;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #9c4afa;
+}
+
+.hero-description {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  font-family: 'VT323', monospace;
+
+}
+
+.hero-profile-image img {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  box-shadow: 0 6px 36px rgba(140,0,255,0.15);
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    background: linear-gradient(180deg, #000000, #000000, #530680);
+    flex-direction: column; 
+    gap: 1rem;
+  }
+
+  .hero-profile-image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .hero-tagline {
+    font-size: 1.2rem;
+  }
+
+  .hero-description{
+    font-size: 1.12rem;
+  }
+}
