@@ -15,7 +15,7 @@ const projects = [
     {
         title: "ctkchart",
         description: "Line-Chart Widget for customtkinter, Python library for creating live updating line charts..",
-        images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png"],
+        images: ["/images/ctkchart/1.png", "/images/ctkchart/2.png", "/images/ctkchart/3.png", "/images/ctkchart/4.png"],
     }
 ]
 
