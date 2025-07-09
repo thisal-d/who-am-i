@@ -50,11 +50,18 @@
     box-shadow: 5px -5px 5px 5px rgba(176, 91, 255, 0.5);
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .project-card {
         padding: 0.5rem;
     }
+
+    .project-title {
+        font-size: 1.2rem;
+      
+    }
+    .project-description {
+        font-size: 1.12rem;
+    }
+        
+  
 }
-
-
