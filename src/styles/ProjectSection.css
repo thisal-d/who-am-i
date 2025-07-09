@@ -25,6 +25,15 @@
 }
 
 @media (max-width: 768px){
+    .project-s-description{
+        font-size: 1.12rem;
+    }
+
+    .project-s-title{
+        font-size: 1.6rem;
+      
+    }
+
     .prject-section {
         padding: 1rem;
     }
