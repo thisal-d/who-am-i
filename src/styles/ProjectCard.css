@@ -53,6 +53,14 @@
 @media (max-width: 768px){
     .project-card {
         padding: 0.5rem;
+        width: 288px;
+        height: 320px;
+    }
+
+    
+    .project-images-container {
+        width: 147px;
+        height: 157px;         
     }
 
     .project-title {
@@ -62,6 +70,9 @@
     .project-description {
         font-size: 1.12rem;
     }
-        
+
+    .project-image {
+        width: 192px;               
+    }
   
 }
