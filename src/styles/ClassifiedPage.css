@@ -5,21 +5,31 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'SairaStencilOne', monospace;
   color: #ffffff;
   background: linear-gradient(160deg, #1b002c, #000000);
   padding: 2rem;
   user-select: none;
 }
 
-.classified-page h1 {
+.classified-title {
   font-size: 3rem;
+  font-family: 'SairaStencilOne', monospace;
   margin-bottom: 1rem;
-  color: #cd8dff;
+  color: #ff0202;
 }
 
-.classified-page p {
-  font-size: 1.4rem;
+.classified-description {
+  font-size: 1.7rem;
   font-family: 'VT323', monospace;
   letter-spacing: 0.1em;
+}
+
+@media (max-width: 768px){
+  .classified-title {
+    font-size: 2rem;
+  }
+
+  .classified-description {
+    font-size: 1.4rem;
+  }
 }
