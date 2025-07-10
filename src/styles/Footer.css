@@ -1,7 +1,7 @@
 @import url('./fonts.css');
 
 .footer-head {
-    padding: 2rem;
+    padding: 3rem 2rem;
     background: linear-gradient(90deg, #550195, #000000, #000000);
     color: #fff;
 }
@@ -11,6 +11,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    max-width: 1000px;
 }
 
 footer div {
@@ -23,7 +24,7 @@ footer div {
     font-family: 'SairaStencilOne', monospace;
 }
 
-.social-title{
+.footer-social-title{
     font-family: 'SairaStencilOne', monospace;
     font-size: 1.5rem;
     color: #fff;
@@ -34,18 +35,18 @@ footer div {
     flex-direction: column;
 }
 
-.social-link-container{
+.footer-social-link-container{
     display: flex; 
     margin: 10px;
     justify-content: center;
 }
 
-.social-link-container:hover {
+.footer-social-link-container:hover {
     transform: scale(1.08);
     transition: transform 0.3s ease;
 }
 
-.social-link{
+.footer-social-link{
     color: #fff;
     display: flex;
     align-items: center;
@@ -53,28 +54,28 @@ footer div {
     column-gap: 16px;    
 }
 
-.social-name{
+.footer-social-name{
     font-family: 'VT323', monospace;
     font-size: 1.4rem;
 }
 
-.social-icon{
+.footer-social-icon{
     width: 28px;
     height: 28px;
 }
 
-.profile-image{
+.footer-profile-image{
     width: 240px;
     height: 240px;
     border-radius: 50%;
 }
 
-.profile-image:hover{
+.footer-profile-image:hover{
     transform: scale(1.08);
     transition: transform 0.3s ease;
 }
 
-.copyright-text{
+.footer-copyright-text{
     font-size: 1.3rem;
     font-family: 'VT323', monospace;
     background-color: #000000;
@@ -106,24 +107,24 @@ footer div {
         margin-bottom: 1px;
     }
 
-    .social-title {
+    .footer-social-title {
         font-size: 1.2rem;
         margin-bottom: 24px;
     }
 
-    .social-name{
+    .footer-social-name{
         font-size: 1.12rem;
     }
 
-    .social-links-container {
+    .footer-social-links-container {
         margin-bottom: 24px;
     }
 
-    .copyright-text{
+    .footer-copyright-text{
         font-size: 1.04rem;
     }
 
-    .social-link-container{
+    .footer-social-link-container{
         margin: 6px;
     }
 

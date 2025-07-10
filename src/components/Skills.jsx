@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Skills.css";
+import SkillCard from "./SkillCard";
 
 const skills = [
   { name: "Python", icon: "/icons/python.png" },
@@ -19,10 +20,7 @@ const Skills = () => (
     <h2 className="skills-title">Skills & Tech Stack</h2>
     <div className="skills-grid">
       {skills.map(skill => (
-        <div className="skill-card" key={skill.name}>
-          <img src={skill.icon} alt={skill.name} className="skill-icon" />
-          <span className="skill-name">{skill.name}</span>
-        </div>
+        <SkillCard key={skill.name} skill={skill}/>
       ))}
     </div>
   </section>

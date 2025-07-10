@@ -40,15 +40,15 @@ const Footer = () => (
                 </p>
             
                 <div className="footer-main-container">
-                    <div><p className="social-title"> Wanna Know Who Am I ?</p></div>
-                    <div class="social-links-container">
+                    <div><p className="footer-social-title"> Wanna Know Who Am I ?</p></div>
+                    <div class="footer-social-links-container">
                         {
                             socialInformations.map(
                                 (socialInformation, index) => (
-                                    <div key={index} className="social-link-container">
-                                        <a href={socialInformation.url} target="_blank" rel="noopener noreferrer" className="social-link">
-                                            <img src={socialInformation.icon} alt={socialInformation.name} className="social-icon" />
-                                            <p className="social-name">{socialInformation.name}</p>
+                                    <div key={index} className="footer-social-link-container">
+                                        <a href={socialInformation.url} target="_blank" rel="noopener noreferrer" className="footer-social-link">
+                                            <img src={socialInformation.icon} alt={socialInformation.name} className="footer-social-icon" />
+                                            <p className="footer-social-name">{socialInformation.name}</p>
                                         </a>
                                     </div>
                                 ) 
@@ -57,12 +57,12 @@ const Footer = () => (
                     </div>
 
                     <div>
-                        <img src="/images/profile.jpg" alt="Profile-Photo" className="profile-image" />
+                        <img src="/images/profile.jpg" alt="Profile-Photo" className="footer-profile-image" />
                     </div>
                 </div>
             </div>
         </section>
-        <p className="copyright-text">
+        <p className="footer-copyright-text">
                 &copy; {new Date().getFullYear()} Thisal Dilmith • Who Am I. All rights reserved.
         </p>
     </footer>
