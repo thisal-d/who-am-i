@@ -6,27 +6,27 @@ let socialInformations = [
     {
         name: "GitHub",
         url: "https://github.com/thisal-d",
-        icon: "/icons/github.png"
+        icon: "/icons/social/github.png"
     },
     {
         name: "Stack Overflow",
         url: "https://stackoverflow.com/users/17652621/thisal",
-        icon: "/icons/stack-overflow.png"
+        icon: "/icons/social/stack-overflow.png"
     },
     {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/thisal-dilmith",
-        icon: "/icons/linkedin.png"
+        icon: "/icons/social/linkedin.png"
     },
     {
         name: "FaceBook",
         url: "https://www.facebook.com/share/1DzcupqZCB/",
-        icon: "/icons/facebook.png"
+        icon: "/icons/social/facebook.png"
     },
     {
         name: "Instagram",
         url: "https://www.instagram.com/thisal.rapa/  ",
-        icon: "/icons/instagram.png"
+        icon: "/icons/social/instagram.png"
     },
     
 ];

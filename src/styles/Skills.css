@@ -1,5 +1,8 @@
 .skills-section {
-  background: linear-gradient(120deg, #1b002c 70%, #550195 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(270deg, #000000, #000000, #530680);
   padding: 3rem 2rem;
   color: #fff;
 }
@@ -8,6 +11,14 @@
   font-family: 'SairaStencilOne', monospace;
   font-size: 2rem;
   margin-bottom: 2rem;
+}
+
+.skills-description {
+  font-family: 'VT323', monospace;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  max-width: 1400px;
+  text-align: center;
 }
 
 .skills-grid {
@@ -20,5 +31,13 @@
 @media (max-width: 700px) {
   .skills-grid {
     gap: 1rem;
+  }
+
+  .skills-description{
+      font-size: 1.12rem;
+  }
+
+  .skills-title{
+      font-size: 1.6rem;
   }
 }
