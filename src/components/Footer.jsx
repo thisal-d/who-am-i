@@ -20,12 +20,12 @@ let socialInformations = [
     },
     {
         name: "FaceBook",
-        url: "https://www.facebook.com/share/1DzcupqZCB/",
+        url: "/classified",
         icon: "/icons/social/facebook.png"
     },
     {
         name: "Instagram",
-        url: "https://www.instagram.com/thisal.rapa/  ",
+        url: "/classified",
         icon: "/icons/social/instagram.png"
     },
     
