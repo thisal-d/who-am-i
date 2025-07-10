@@ -1,3 +1,4 @@
+/* Base Styles */
 .header {
   display: flex;
   justify-content: space-between;
@@ -16,9 +17,34 @@
   color: #ffffff;
 }
 
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.4s ease;
+}
+
+.bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Nav Links */
 .header-links-container {
   display: flex;
-  align-items: center;
 }
 
 .header-links {
@@ -51,4 +77,39 @@
   background: #8800ff;
   color: #fff;
   border-color: #fff;
+}
+
+/* ----------------------------- */
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .header-links-container {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #000000f5;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+
+  .header-links-container.active {
+    display: block;
+  }
+
+  .header-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .header-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+  }
 }

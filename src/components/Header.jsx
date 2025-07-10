@@ -1,26 +1,30 @@
-import React from "react";
-import { NavLink  } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
 
+function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
 
-function Header(){
-    return (
-        <header className="header">
-            <div>
-                <p className="header-title">Who Am I</p>
-            </div>
-            <div className="header-links-container">
-                <nav>
-                    <ul className="header-links">
-                        <li><NavLink  className="header-link" to="/">Home</NavLink ></li>
-                        <li><NavLink  className="header-link" to="/about">About</NavLink ></li>
-                        <li><NavLink  className="header-link" to="/projects">Projects</NavLink ></li>
-                        <li><NavLink  className="header-link" to="/contact">Contact</NavLink ></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    )
+  return (
+    <header className="header">
+      <div className="header-title">Who Am I</div>
+
+      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className={`bar ${menuOpen ? "open" : ""}`}></div>
+        <div className={`bar ${menuOpen ? "open" : ""}`}></div>
+        <div className={`bar ${menuOpen ? "open" : ""}`}></div>
+      </div>
+
+      <nav className={`header-links-container ${menuOpen ? "active" : ""}`}>
+        <ul className="header-links">
+          <li><NavLink className="header-link" to="/" onClick={() => setMenuOpen(false)}>Home</NavLink></li>
+          <li><NavLink className="header-link" to="/about" onClick={() => setMenuOpen(false)}>About</NavLink></li>
+          <li><NavLink className="header-link" to="/projects" onClick={() => setMenuOpen(false)}>Projects</NavLink></li>
+          <li><NavLink className="header-link" to="/contact" onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;
