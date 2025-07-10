@@ -7,8 +7,12 @@ const Hero = () => (
       <p className="hero-title">Hi, I'm Thisal Dilmith 👋</p>
       <p className="hero-tagline">Python Developer • Open Source Enthusiast • UI Explorer</p>
       <p className="hero-description">
-        I love building tools that empower others & experimenting with creative interfaces.<br/>
-        Welcome to my portfolio — see what I'm working on!
+        I'm a passionate Python developer and open source contributor. 
+        My interests lie in building tools, automating processes, and developing solutions 
+        that empower both developers and end-users. 
+        I enjoy collaborating with the open source community and
+        am always eager to learn and experiment with new technologies. 
+        Welcome to my portfolio—explore my projects and see what I'm working on!
       </p>
     </div>
     <div className="hero-profile-image">

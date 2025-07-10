@@ -1,32 +1,54 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background: linear-gradient(90deg, #1b002c, #000);
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(180deg, #000000, #000000, #8800ff);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    font-family: 'SairaStencilOne', sans-serif;
+.header-title {
+  font-family: 'SairaStencilOne', monospace;
+  font-size: 2.5rem;
+  color: #ffffff;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
+.header-links-container {
+  display: flex;
+  align-items: center;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-family: 'VT323', monospace;
-    font-size: 1.3rem;
+.header-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links a:hover {
-    color: #00ffff;
-    transition: 0.3s;
+.header-link {
+  font-family: 'SairaStencilOne', monospace;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  background: linear-gradient(-20deg, #8800ff, #000000);
+  border: 2px solid #8800ff;
+  border-radius: 24px;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease;
+}
+
+.header-link:hover {
+  background: linear-gradient(20deg, #8800ff, #000000);
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.header-link.active {
+  background: #8800ff;
+  color: #fff;
+  border-color: #fff;
 }

@@ -23,14 +23,15 @@
 
 .hero-description {
   font-size: 1.4rem;
+  max-width: 1400px;
   margin-bottom: 2rem;
   font-family: 'VT323', monospace;
 
 }
 
 .hero-profile-image img {
-  width: 360px;
-  height: 360px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   box-shadow: 0 6px 36px rgba(140,0,255,0.15);
 }
@@ -43,8 +44,8 @@
   }
 
   .hero-profile-image img {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
   }
 
   .hero-title {
