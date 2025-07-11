@@ -43,7 +43,8 @@ function ProjectCard({ project }) {
 
         {repoData && (
           <div className="project-stats">
-            ⭐ {repoData.stargazers_count} Stars &nbsp;&nbsp;
+            ⭐ {repoData.stargazers_count} Stars 
+            &nbsp;&nbsp;
             🍴 {repoData.forks_count} Forks
           </div>
         )}
