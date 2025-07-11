@@ -1,6 +1,6 @@
 .project-card {
     width: 360px;
-    height: 400px;
+    height: 420px;
     padding: 1rem;
     background: linear-gradient(90deg, #000000, #1f012a4e);
     border: 1px solid rgb(153, 0, 255);
@@ -57,11 +57,28 @@
     box-shadow: 5px -5px 5px 5px rgba(176, 91, 255, 0.5);
 }
 
+.project-stats-container{
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-github-repo img{
+    width: 28px;
+}
+
+.project-stats{
+    font-family: 'SairaStencilOne', monospace;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 768px){
     .project-card {
         padding: 0.5rem;
         width: 288px;
-        height: 320px;
+        height: 340px;
     }
     
     .project-images-container {
@@ -80,5 +97,18 @@
     .project-image {
         width: 192px;               
     }
-  
+    
+    .project-stats-container{
+        margin-top: 11px;
+    }
+
+    .project-github-repo img{
+        width: 22px;
+    }
+
+    .project-stats{
+        font-family: 'SairaStencilOne', monospace;
+        font-size: 0.72rem;
+    }
+
 }

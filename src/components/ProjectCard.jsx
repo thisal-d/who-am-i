@@ -1,6 +1,17 @@
 import '../styles/ProjectCard.css';
+import { useEffect, useState } from "react";
 
 function ProjectCard({ project }) {
+  const[repoData, setRepoData] = useState(null);
+
+  useEffect(() => {
+    fetch(project.api_url)
+    .then(res => res.json())
+    .then(res => setRepoData(res))
+    .catch(err => console.log(err));} 
+    , [project.api_url]
+ );
+
   return (
     <div className="project-card">
       <div>
@@ -20,6 +31,24 @@ function ProjectCard({ project }) {
       <div>
         <p className="project-description">{project.description}</p>
       </div>      
+
+      <div className="project-stats-container">
+        <div>
+          <p className="project-github-repo">
+            <a href={project.repo_url}>
+              <img src="/icons/social/github.png" alt="github"/>
+            </a>
+          </p>
+        </div>
+
+        {repoData && (
+          <div className="project-stats">
+            ⭐ {repoData.stargazers_count} Stars &nbsp;&nbsp;
+            🍴 {repoData.forks_count} Forks
+          </div>
+        )}
+
+      </div>
     </div>
   );
 }

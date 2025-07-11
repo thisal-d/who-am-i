@@ -6,16 +6,22 @@ const projects = [
         title: "tkchart",
         description: "Line-Chart Widget for tkinter, Python library for creating live updating line charts..",
         images: ["/images/tkchart/1.png", "/images/tkchart/2.png", "/images/tkchart/3.png", "/images/tkchart/4.png"],
+        repo_url: "https://github.com/thisal-d/tkchart/",
+        api_url: "https://api.github.com/repos/thisal-d/tkchart",
     },
     {
         title: "PyTube Downloder",
-        description: "Quickly download YouTube videos and playlists with one click. Choose from 144p to 8K quality and download multiple videos simultaneously",
-        images: ["/images/pytube-downloader/1.png", "/images/pytube-downloader/2.png", "/images/pytube-downloader/3.png", "/images/pytube-downloader/4.png"]
+        description: "Quickly download YouTube videos and playlists with one click. Choose from 144p to 8K quality.",
+        images: ["/images/pytube-downloader/1.png", "/images/pytube-downloader/2.png", "/images/pytube-downloader/3.png", "/images/pytube-downloader/4.png"],
+        repo_url: "https://github.com/thisal-d/pytube-downloader/",
+        api_url: "https://api.github.com/repos/thisal-d/pytube-downloader",
     },
     {
         title: "ctkchart",
         description: "Line-Chart Widget for customtkinter, Python library for creating live updating line charts..",
         images: ["/images/ctkchart/1.png", "/images/ctkchart/2.png", "/images/ctkchart/3.png", "/images/ctkchart/4.png"],
+        repo_url: "https://github.com/thisal-d/ctkchart/",
+        api_url: "https://api.github.com/repos/thisal-d/ctkchart",
     }
 ]
 
